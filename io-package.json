@@ -1,92 +1,105 @@
 {
-    "common": {
-        "name": "faux",
-        "version": "0.0.2",
-        "news": {
-            "0.0.1": {
-                "en": "initial release",
-                "de": "Erstveröffentlichung",
-                "ru": "Начальная версия",
-                "pt": "lançamento inicial",
-                "nl": "Eerste uitgave",
-                "fr": "Première version",
-                "it": "Versione iniziale",
-                "es": "Versión inicial",
-                "pl": "Pierwsze wydanie",
-                "uk": "Початкова версія",
-                "zh-cn": "首次出版"
-            }
-        },
-        "titleLang": {
-            "en": "Faux",
-            "de": "Faux",
-            "ru": "искусственный",
-            "pt": "Falso",
-            "nl": "Nep",
-            "fr": "Faux",
-            "it": "Finto",
-            "es": "falso",
-            "pl": "Fałsz",
-            "uk": "Фальшивий",
-            "zh-cn": "人造的"
-        },
-        "desc": {
-            "en": "faux",
-            "de": "falsch",
-            "ru": "искусственный",
-            "pt": "falso",
-            "nl": "nep",
-            "fr": "faux",
-            "it": "falso",
-            "es": "falso",
-            "pl": "fałszywy",
-            "uk": "штучний",
-            "zh-cn": "假的"
-        },
-        "authors": [
-            "NewXtSI <leerzeichen32@googlemail.com>"
-        ],
-        "keywords": [
-            "template",
-            "automation",
-            "IoT",
-            "integration"
-        ],
-        "licenseInformation": {
-            "type": "free",
-            "license": "MIT"
-        },
-        "platform": "Javascript/Node.js",
-        "icon": "faux.png",
-        "enabled": true,
-        "extIcon": "https://raw.githubusercontent.com/NewXtSI/ioBroker.faux/main/admin/faux.png",
-        "readme": "https://github.com/NewXtSI/ioBroker.faux/blob/main/README.md",
-        "loglevel": "info",
-        "tier": 3,
-        "mode": "daemon",
-        "type": "logic",
-        "compact": true,
-        "connectionType": "local",
-        "dataSource": "push",
-        "adminUI": {
-            "config": "materialize"
-        },
-        "eraseOnUpload": true,
-        "dependencies": [
-            {
-                "js-controller": ">=6.0.11"
-            }
-        ],
-        "globalDependencies": [
-            {
-                "admin": ">=7.0.23"
-            }
-        ]
+  "common": {
+    "name": "faux",
+    "version": "0.0.3-alpha.0",
+    "news": {
+      "0.0.3-alpha.0": {
+        "en": "initial release",
+        "de": "erstausstrahlung",
+        "ru": "первоначальное освобождение",
+        "pt": "libertação inicial",
+        "nl": "eerste release",
+        "fr": "libération initiale",
+        "it": "rilascio iniziale",
+        "es": "liberación inicial",
+        "pl": "początkowe zwolnienie",
+        "uk": "початковий реліз",
+        "zh-cn": "初步释放"
+      },
+      "0.0.1": {
+        "en": "initial release",
+        "de": "Erstveröffentlichung",
+        "ru": "Начальная версия",
+        "pt": "lançamento inicial",
+        "nl": "Eerste uitgave",
+        "fr": "Première version",
+        "it": "Versione iniziale",
+        "es": "Versión inicial",
+        "pl": "Pierwsze wydanie",
+        "uk": "Початкова версія",
+        "zh-cn": "首次出版"
+      }
     },
-    "native": {
-        "option1": true,
-        "option2": "42"
+    "titleLang": {
+      "en": "Faux",
+      "de": "Faux",
+      "ru": "искусственный",
+      "pt": "Falso",
+      "nl": "Nep",
+      "fr": "Faux",
+      "it": "Finto",
+      "es": "falso",
+      "pl": "Fałsz",
+      "uk": "Фальшивий",
+      "zh-cn": "人造的"
     },
-    "objects": [],
-    "instanceObjects": []
+    "desc": {
+      "en": "faux",
+      "de": "falsch",
+      "ru": "искусственный",
+      "pt": "falso",
+      "nl": "nep",
+      "fr": "faux",
+      "it": "falso",
+      "es": "falso",
+      "pl": "fałszywy",
+      "uk": "штучний",
+      "zh-cn": "假的"
+    },
+    "authors": [
+      "NewXtSI <leerzeichen32@googlemail.com>"
+    ],
+    "keywords": [
+      "template",
+      "automation",
+      "IoT",
+      "integration"
+    ],
+    "licenseInformation": {
+      "type": "free",
+      "license": "MIT"
+    },
+    "platform": "Javascript/Node.js",
+    "icon": "faux.png",
+    "enabled": true,
+    "extIcon": "https://raw.githubusercontent.com/NewXtSI/ioBroker.faux/main/admin/faux.png",
+    "readme": "https://github.com/NewXtSI/ioBroker.faux/blob/main/README.md",
+    "loglevel": "info",
+    "tier": 3,
+    "mode": "daemon",
+    "type": "logic",
+    "compact": true,
+    "connectionType": "local",
+    "dataSource": "push",
+    "adminUI": {
+      "config": "materialize"
+    },
+    "eraseOnUpload": true,
+    "dependencies": [
+      {
+        "js-controller": ">=6.0.11"
+      }
+    ],
+    "globalDependencies": [
+      {
+        "admin": ">=7.0.23"
+      }
+    ]
+  },
+  "native": {
+    "option1": true,
+    "option2": "42"
+  },
+  "objects": [],
+  "instanceObjects": []
 }
