@@ -119,6 +119,7 @@ Please refer to the [`dev-server` documentation](https://github.com/ioBroker/dev
 -->
 
 ### **WORK IN PROGRESS**
+* removed ukrain language
 
 ### 0.0.3-alpha.0 (2026-05-29)
 * (NewXtSI) initial release
