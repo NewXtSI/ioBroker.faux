@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "faux",
-    "version": "0.0.3-alpha.0",
+    "version": "0.0.3-alpha.1",
     "news": {
+      "0.0.3-alpha.1": {
+        "en": "removed ukrain language",
+        "de": "ukrain sprache",
+        "ru": "удаленный украинский язык",
+        "pt": "idioma ukrain removido",
+        "nl": "verwijderde ukrain taal",
+        "fr": "langue ukrain enlevée",
+        "it": "lingua ucraina rimossa",
+        "es": "lengua ucran eliminada",
+        "pl": "usunięty język ukrain",
+        "uk": "вилучена мова",
+        "zh-cn": "删除 ukrain 语言"
+      },
       "0.0.3-alpha.0": {
         "en": "initial release",
         "de": "erstausstrahlung",
